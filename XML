@@ -1,22 +1,22 @@
 <mxfile>
-  <diagram name="Page-1" id="6b7a2b4d-22e7-4fae-a2f2-4496f3f5652b">
-    <mxGraphModel dx="639" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="Class Diagram" id="0">
+    <mxGraphModel dx="810" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" style="group" vertex="1">
-          <mxGeometry x="280" y="220" width="420" height="360" as="geometry"/>
+          <mxGeometry width="800" height="600" as="geometry"/>
         </mxCell>
-        <mxCell id="2" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;fontColor=#000000;" vertex="1">
-          <mxGeometry x="40" y="40" width="160" height="120" as="geometry"/>
+        <mxCell id="2" value="Employee" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1">
+          <mxGeometry x="80" y="40" width="160" height="120" as="geometry"/>
         </mxCell>
-        <mxCell id="3" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;fontColor=#000000;" vertex="1">
-          <mxGeometry x="240" y="40" width="160" height="120" as="geometry"/>
+        <mxCell id="3" value="Department" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1">
+          <mxGeometry x="320" y="40" width="160" height="120" as="geometry"/>
         </mxCell>
-        <mxCell id="4" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;fontColor=#000000;" vertex="1">
-          <mxGeometry x="440" y="40" width="160" height="120" as="geometry"/>
+        <mxCell id="4" value="Payroll" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1">
+          <mxGeometry x="560" y="40" width="160" height="120" as="geometry"/>
         </mxCell>
-        <mxCell id="5" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;fontColor=#000000;" vertex="1">
-          <mxGeometry x="640" y="40" width="160" height="120" as="geometry"/>
+        <mxCell id="5" value="Tax" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1">
+          <mxGeometry x="320" y="200" width="160" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;link=1;strokeColor=#000000;endArrow=block;endSize=8;endFill=1;strokeWidth=2;" edge="1" parent="1" source="2" target="3">
           <mxGeometry relative="1" as="geometry"/>
@@ -26,18 +26,6 @@
         </mxCell>
         <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;link=1;strokeColor=#000000;endArrow=block;endSize=8;endFill=1;strokeWidth=2;" edge="1" parent="1" source="4" target="5">
           <mxGeometry relative="1" as="geometry"/>
-        </mxCell>
-        <mxCell id="2" value="Employee" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;fontColor=#000000;" vertex="1">
-          <mxGeometry x="0" y="0" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="3" value="Department" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;fontColor=#000000;" vertex="1">
-          <mxGeometry x="0" y="0" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="4" value="Payroll" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;fontColor=#000000;" vertex="1">
-          <mxGeometry x="0" y="0" width="120" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="5" value="Tax" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;fontSize=12;fontColor=#000000;" vertex="1">
-          <mxGeometry x="0" y="0" width="120" height="80" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
